@@ -41,7 +41,7 @@ The url embedded within the error message will load the appropriate location in 
 After subscribing, re-run the ```terraform apply``` and the error should not occur again.
 # Set Deployment Regions
 
-Uncomment the needed Region US Oregon or Europe Stockholm in variables.tf
+Uncomment or add the needed Region in variables.tf
 
 # Access Credentials
 ```bash
