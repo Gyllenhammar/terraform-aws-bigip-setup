@@ -10,24 +10,24 @@ variable "prefix" {
 
 variable "region" {
   # default = "eu-central-1"  # Europe (Frankfurt)
-  # default = "eu-north-1"    # Europe (Stockholm)
+  default = "eu-north-1"    # Europe (Stockholm)
   # default = "us-west-2"     # US (Oregon)
 }
 
 variable "azs" {
   # default = ["eu-central-1a", "eu-central-1b"]  # Europe (Frankfurt)
-  # default = ["eu-north-1a", "eu-north-1b"]      # Europe (Stockholm)
+  default = ["eu-north-1a", "eu-north-1b"]      # Europe (Stockholm)
   # default = ["us-west-2a", "us-west-2b"]        # US (Oregon)
 }
 
 variable "ec2_bigip_type" {
   # default = "c4.xlarge"   # Europe (Frankfurt)
-  # default = "c5.xlarge"   # Europe (Stockholm)
+  default = "c5.xlarge"   # Europe (Stockholm)
   # default = "c4.xlarge"   # US (Oregon)
 }
 variable "ec2_ubuntu_type" {
   # default = "t2.xlarge"   #Europe (Frankfurt)
-  # default = "t3.xlarge"   # Europe (Stockholm)
+  default = "t3.xlarge"   # Europe (Stockholm)
   # default = "t2.xlarge"   # US (Oregon)
 }
 
