@@ -60,3 +60,27 @@ variable "ec2_key_name" {
 
 variable "ec2_key_file" {
 }
+
+#Kubernetes Cluster
+variable "aws_kube_master_size" {
+  default = "t3.medium"
+}
+
+variable "aws_etcd_size" {
+  default = "t3.medium"
+}
+
+variable "aws_kube_worker_size" {
+  default = "t3.medium"
+}
+
+
+
+aws_kube_master_num  = 3
+aws_kube_master_size = "t2.medium"
+
+aws_etcd_num  = 3
+aws_etcd_size = "t2.medium"
+
+aws_kube_worker_num  = 4
+aws_kube_worker_size = "t2.medium"
